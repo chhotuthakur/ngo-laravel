@@ -90,8 +90,8 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a class="is-active" href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a class="is-active" href="{{url('/index')}}">HOME</a></li>
+                    <li><a href="{{url('/about')}}">ABOUT</a></li>
                     <li class="has-child"><a href="#">CAUSES</a>
 
                       <ul class="submenu">
@@ -102,8 +102,8 @@
                       </ul>
 
                     </li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="{{url('/gallery')}}">GALLERY</a></li>
+                    <li><a href="{{url('/contact')}}">CONTACT</a></li>
 
                   </ul>
 
