@@ -40,7 +40,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-top {
-  background: #115c9b;
+  background: #e60606;
   font-size: 12px;
   padding: 3px 0;
 }
@@ -57,7 +57,7 @@ a:hover, a:focus, a:active {
 .navbar-main {
   margin-bottom: 0;
   color: #fff;
-  background: #1f76bd;
+  background: #e60606;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -180,9 +180,9 @@ a:hover, a:focus, a:active {
   background-color: #0076a3;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMjgwODE0IiB5MT0iLTAuMTAyMjA4IiB4Mj0iMC43MTkxODYiIHkyPSIxLjEwMjIwOCI+PHN0b3Agb2Zmc2V0PSItMjUlIiBzdG9wLWNvbG9yPSIjMTE1YjliIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxMjkwZjgiLz48c3RvcCBvZmZzZXQ9IjEyNSUiIHN0b3AtY29sb3I9IiMxMTViOWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background-size: 100%;
-  background-image: -moz-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-  background-image: -webkit-linear-gradient(290deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
-  background-image: linear-gradient(160deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);
+  background-image: -moz-linear-gradient(290deg, #e60606 -25%, #1290f8 50%, #e60606 125%);
+  background-image: -webkit-linear-gradient(290deg, #e60606 -25%, #1290f8 50%, #e60606 125%);
+  background-image: linear-gradient(160deg, #e60606 -25%, #1290f8 50%, #e60606 125%);
   color: #fff;
 }
 .about-us-col .col-icon-wrapper {
@@ -324,12 +324,12 @@ a:hover, a:focus, a:active {
 /* footer 
 ================================= */
 .footer-top {
-  background: #115c9b;
+  background: #e60606;
   height: 40px;
 }
 
 .main-footer {
-  background: #1f76bd;
+  background: #e60606;
   color: #fff;
 }
 .main-footer .footer-main {
@@ -359,7 +359,7 @@ a:hover, a:focus, a:active {
   content: "";
   height: 1px;
   display: block;
-  background: #115c9b;
+  background: #e60606;
   width: 150px;
   margin: 15px auto;
 }
@@ -368,7 +368,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #115c9b;
+  background: #e60606;
   padding: 3px;
 }
 
@@ -376,7 +376,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 5px;
 }
 .footer-form .form-control {
-  background: #115c9b;
+  background: #e60606;
   color: #fff;
   border: 0;
   border-radius: 0;

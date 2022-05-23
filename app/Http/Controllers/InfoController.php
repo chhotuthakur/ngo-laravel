@@ -28,7 +28,7 @@ class InfoController extends Controller
     
     public function show(SiteInfo $siteInfo)
     {
-        return view ('/')->with('siteArr',SiteInfo::all());
+        return view ('frontend.layout.header')->with('siteArr',SiteInfo::all());
     }
 
    

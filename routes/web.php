@@ -20,7 +20,7 @@ use App\Models\SiteInfo;
 */
 
 Route::get('/', function () {
-    return view('frontend.index','SiteInfoController@show' );
+    return view('frontend.index' );
 });
 Route::get('/about', function () {
     return view('frontend.about');

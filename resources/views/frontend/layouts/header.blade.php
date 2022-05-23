@@ -2,10 +2,11 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        @foreach ($siteArr as $siteinfo )
+        {{-- @foreach ($siteArr as $siteinfo ) --}}
           
-        @endforeach
-        <title>{{$siteinfo->title}}</title>
+        
+        <title>title</title>
+       
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fonts -->
@@ -72,6 +73,34 @@
             </div>
 
             <div class="navbar-main">
+              <div class="container">
+                
+                   <section>
+                     <div class="row">
+                 <div class="col sm">
+                       <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('frontend/images/logo.png')}}" width="85px" alt=""></a>
+                      
+                      </div>
+<div class="col sm">
+  <h3 class="text-white">JAI SHRI RADHEY KRISHAN FOUNDATION</h3>
+  <p class="squareleft"></p><p class="subtitle">Sabke Sath</p><p class="squareright"></p>
+
+</div>
+                     </div>
+                
+                   
+                    
+
+
+                   </section>
+                    
+               {{--      <a class="navbar-brand" href="index.html"><img src="{{asset('frontend/images/logo.png')}}" width="85px" alt=""></a>
+                    <h3 class="text-white">JAI SHRI RADHEY KRISHAN FOUNDATION</h3> --}}
+                    
+                  </div>
+  
+                
+            
               
               <div class="container">
 
@@ -85,9 +114,11 @@
 
                   </button>
                   
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
+                  {{-- <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a> --}}
+                 
                   
                 </div>
+                
 
                 <div id="navbar" class="navbar-collapse collapse pull-right">
 
