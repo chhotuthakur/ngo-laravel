@@ -6,6 +6,7 @@ use App\Http\Controllers\GalleryContorller;
 use App\Http\Controllers\ContactContorller;
 use App\Http\Controllers\AboutContorller;
 use App\Http\Controllers\DonateContorller;
+use App\Models\SiteInfo;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,7 @@ use App\Http\Controllers\DonateContorller;
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('frontend.index','SiteInfoController@show' );
 });
 Route::get('/about', function () {
     return view('frontend.about');
@@ -33,3 +34,4 @@ Route::get('/gallery', function () {
 Route::get('/donate', function () {
     return view('frontend.donate');
 });
+Route::resource('SiteInfo','App\Http\Controllers\SiteInfoController');

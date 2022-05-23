@@ -2,7 +2,10 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>SADAKA | Charity / Non-profit responsive Bootstrap HTML5 template</title>
+        @foreach ($siteArr as $siteinfo )
+          
+        @endforeach
+        <title>{{$siteinfo->title}}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fonts -->
@@ -90,7 +93,7 @@
 
                   <ul class="nav navbar-nav">
 
-                    <li><a class="is-active" href="{{url('/index')}}">HOME</a></li>
+                    <li><a class="is-active" href="{{url('/')}}">HOME</a></li>
                     <li><a href="{{url('/about')}}">ABOUT</a></li>
                     <li class="has-child"><a href="#">CAUSES</a>
 
