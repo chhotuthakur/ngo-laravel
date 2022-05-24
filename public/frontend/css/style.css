@@ -1056,3 +1056,51 @@ form .alert {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
+.squareleft {
+  height: 15px;
+  width: 90px;
+  float: left;
+ background: linear-gradient(to right, #e60606 , white);
+ 
+
+ display: inline-block;
+}
+.squareright {
+  height: 15px;
+  width: 90px;
+  float: right;
+ background-image: linear-gradient(to right,white , #e60606);
+ 
+ display: inline-block;
+}
+.subtitle{
+
+color: white;
+display: inline;
+font-size: 15px;
+margin-left: 0px;
+display: inline-block;
+margin-right: 0px;
+
+}
+.wrap {
+  display: inline-block;
+  text-align: center;  
+}
+
+.thepeople {
+  font-size: 16px;
+  color: white;
+  float: inline-end;
+}
+.agency {
+  font-size: 10px;
+  color: white;
+}
+
+
+
+
+
+
+

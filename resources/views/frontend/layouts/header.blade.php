@@ -35,17 +35,21 @@
 
 
     <header class="main-header">
-        
+     
     
         <nav class="navbar navbar-static-top">
+         
 
             <div class="navbar-top">
+              
+
 
               <div class="container">
+                
                   <div class="row">
 
                     <div class="col-sm-6 col-xs-12">
-
+                      
                         <ul class="list-unstyled list-inline header-contact">
                             <li> <i class="fa fa-phone"></i> <a href="tel:">+212 658 986 213 </a> </li>
                              <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">contact@sadaka.org</a> </li>
@@ -65,34 +69,21 @@
                        </ul> <!-- /.header-social  -->
                       
                     </div>
+                   
+                    @include('frontend.layouts.site_nav')
+                    @include('frontend.layouts.brand')
 
 
                   </div>
               </div>
 
             </div>
+            
 
             <div class="navbar-main">
               <div class="container">
                 
-                   <section>
-                     <div class="row">
-                 <div class="col sm">
-                       <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('frontend/images/logo.png')}}" width="85px" alt=""></a>
-                      
-                      </div>
-<div class="col sm">
-  <h3 class="text-white">JAI SHRI RADHEY KRISHAN FOUNDATION</h3>
-  <p class="squareleft"></p><p class="subtitle">Sabke Sath</p><p class="squareright"></p>
-
-</div>
-                     </div>
-                
-                   
-                    
-
-
-                   </section>
+          
                     
                {{--      <a class="navbar-brand" href="index.html"><img src="{{asset('frontend/images/logo.png')}}" width="85px" alt=""></a>
                     <h3 class="text-white">JAI SHRI RADHEY KRISHAN FOUNDATION</h3> --}}
@@ -115,7 +106,7 @@
                   </button>
                   
                   {{-- <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a> --}}
-                 
+                  
                   
                 </div>
                 
