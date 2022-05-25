@@ -7,17 +7,29 @@ use App\Http\Controllers\ContactContorller;
 use App\Http\Controllers\AboutContorller;
 use App\Http\Controllers\DonateContorller;
 use App\Models\SiteInfo;
+use App\Models\SystemSettings;
+use TCG\Voyager\Facades\Voyager;
+use Illuminate\Support\Facades\DB;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::get('/',function(){
+
+
+
+try {
+
+
+if (SystemSettings::count()) {
+    return view('frontend.index');
+}else {
+    return view('frontend.install');
+}
+
+    
+} catch (Exception $e) {
+    return view('frontend.install');
+}
+
+});
 
 Route::get('/', function () {
     return view('frontend.index' );
@@ -35,3 +47,13 @@ Route::get('/donate', function () {
     return view('frontend.donate');
 });
 Route::resource('SiteInfo','App\Http\Controllers\SiteInfoController');
+
+
+
+Route::group(['prefix' => 'admin'], function () {
+    
+    Voyager::routes();
+});
+ 
+Route::get('showdata','ShowDataController@index');
+

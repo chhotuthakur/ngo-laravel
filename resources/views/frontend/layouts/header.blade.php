@@ -1,3 +1,8 @@
+
+ 
+
+
+
 <!DOCTYPE html>
 <html class="no-js">
     <head>
@@ -5,7 +10,11 @@
         {{-- @foreach ($siteArr as $siteinfo ) --}}
           
         
-        <title>title</title>
+          @foreach ($users as $user):
+          <title>TITLE</title>
+          @endforeach
+        
+        
        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
