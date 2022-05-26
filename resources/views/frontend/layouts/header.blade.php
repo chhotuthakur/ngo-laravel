@@ -10,9 +10,9 @@
         {{-- @foreach ($siteArr as $siteinfo ) --}}
           
         
-          @foreach ($users as $user):
+         
           <title>TITLE</title>
-          @endforeach
+        
         
         
        
