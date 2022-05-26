@@ -50,10 +50,6 @@ Route::resource('SiteInfo','App\Http\Controllers\SiteInfoController');
 
 
 
-Route::group(['prefix' => 'admin'], function () {
-    
-    Voyager::routes();
-});
  
 Route::get('showdata','ShowDataController@index');
 
