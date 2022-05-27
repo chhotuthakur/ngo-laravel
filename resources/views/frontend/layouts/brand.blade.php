@@ -18,7 +18,7 @@
         <div class="container">
 
           <div class="navbar-header">
-     <div class="navbar-brand">
+     <div class="navbar-brand div-mobile">
      <a class="navbar-brand" href="{{url('/')}}"><img class="img-fluid" style="vertical-align:middle" src="{{asset('frontend/images/logo.png')}}" width="85px" alt=""></a>
      <div class="wrap navbar-brand" style="vertical-align:middle">
         

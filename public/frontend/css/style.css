@@ -39,11 +39,15 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
+
+
 .navbar-top {
   background: #e60606;
   font-size: 12px;
   padding: 3px 0;
+
 }
+
 .navbar-top .list-inline {
   margin-bottom: 0;
 }
@@ -58,6 +62,8 @@ a:hover, a:focus, a:active {
   margin-bottom: 0;
   color: #fff;
   background: #e60606;
+
+
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -1097,10 +1103,45 @@ margin-right: 0px;
   font-size: 10px;
   color: white;
 }
+.deskhead{
+display: none;
+
+}
+@media (max-width:1200) {
+
+  .deskhead{
+    display: block;
+  }
+  
+}
+
+.mohead{
+
+  display: block;
+
+}
+@media (max-width:480) {
+
+  .deskhead{
+    display: none;
+  }
+  
+}
 
 
 
 
 
 
+#div-desktop {
+  display: none;
+}
 
+@media screen and (min-width: 701px) {
+  #div-mobile {
+    display: none;
+  }
+  #div-desktop {
+    display: block;
+  }
+}

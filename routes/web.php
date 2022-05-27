@@ -53,3 +53,8 @@ Route::resource('SiteInfo','App\Http\Controllers\SiteInfoController');
  
 Route::get('showdata','ShowDataController@index');
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
